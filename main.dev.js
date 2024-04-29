@@ -9,15 +9,18 @@ function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
 
 var allProducts = [];
-fetch('cadastur.json').then(function (response) {
-  return response.json();
-}).then(function (data) {
-  allProducts.push.apply(allProducts, _toConsumableArray(data)); // добавляем данные в массив allProducts
 
-  generateContactListMarkup(); // вызываем функцию для генерации разметки после получения данных
-})["catch"](function (error) {
-  return console.error('Ошибка при загрузке данных:', error);
-});
+function generateContactList() {
+  fetch('cadastur.json').then(function (response) {
+    return response.json();
+  }).then(function (data) {
+    allProducts.push.apply(allProducts, _toConsumableArray(data)); // добавляем данные в массив allProducts
+
+    generateContactListMarkup(); // вызываем функцию для генерации разметки после получения данных
+  })["catch"](function (error) {
+    return console.error('Ошибка при загрузке данных:', error);
+  });
+}
 
 function generateContactListMarkup() {
   var html = '';
@@ -28,8 +31,8 @@ function generateContactListMarkup() {
 
   ;
   document.getElementById('data-table').innerHTML = html;
-} // document.addEventListener('DOMContentLoaded', generateProductListMarkup);
+}
 
-
-document.addEventListener('DOMContentLoaded', function () {// Оставляем пустую функцию, так как данные будут загружаться асинхронно и обработаны в функции generateContactListMarkup()
-});
+document.addEventListener('DOMContentLoaded', generateProductList); // document.addEventListener('DOMContentLoaded', () => {
+//     // Оставляем пустую функцию, так как данные будут загружаться асинхронно и обработаны в функции generateContactListMarkup()
+//   });
