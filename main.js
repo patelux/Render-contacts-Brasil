@@ -15,12 +15,21 @@ function generateContactList(namejson){
 function generateContactListMarkup() {
     let html = '';
     for (let i = 0; i < allProducts.length; i++) {
+        // Форматирование номера телефона в виде (XX) XXXXX-XXXX
+        let formattedPhoneNumber = '';
+        if (allProducts[i].nuTelefone !== null) {
+            const phoneNumber = allProducts[i].nuTelefone.trim();
+            if (phoneNumber.length === 11) {
+                formattedPhoneNumber = `(${phoneNumber.substring(0, 2)}) ${phoneNumber.substring(2, 7)}-${phoneNumber.substring(7)}`;
+            }
+        }
+
         html += `
         <tr>
         <td>${allProducts[i].sguf !== null ? allProducts[i].sguf : ''}</td>
         <td>${allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : ''}</td>
         <td>${allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : ''}</td>
-        <td>${allProducts[i].nuTelefone !== null ? allProducts[i].nuTelefone : ''}</td>
+        <td>${formattedPhoneNumber}</td>
         <td>${allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : ''}</td>
         <td>${allProducts[i].municipio !== null ? allProducts[i].municipio : ''}</td>
         <td>${allProducts[i].noBairro !== null ? allProducts[i].noBairro : ''}</td>
@@ -37,10 +46,12 @@ function generateContactListMarkup() {
     document.getElementById('data-table').innerHTML = html;
 }
 
-document.getElementById('button1').addEventListener('click', () => generateContactList('cadastur'));
-document.getElementById('button2').addEventListener('click', () => generateContactList('cadasturAC'));
-// document.getElementById('button3').addEventListener('click', () => generateContactList('cadastur2'));
-// document.getElementById('button4').addEventListener('click', () => generateContactList('cadastur3'));
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Оставляем пустую функцию, так как данные будут загружаться асинхронно и обработаны в функции generateContactListMarkup()
-//   });
+document.getElementById('button1').addEventListener('click', () => generateContactList('cadasturAC'));
+document.getElementById('button2').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button3').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button4').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button5').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button6').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button7').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button8').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button9').addEventListener('click', () => generateContactList('cadasturAL'));

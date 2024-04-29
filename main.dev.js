@@ -19,7 +19,18 @@ function generateContactListMarkup() {
   var html = '';
 
   for (var i = 0; i < allProducts.length; i++) {
-    html += "\n        <tr>\n        <td>".concat(allProducts[i].sguf !== null ? allProducts[i].sguf : '', "</td>\n        <td>").concat(allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '', "</td>\n        <td>").concat(allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : '', "</td>\n        <td>").concat(allProducts[i].nuTelefone !== null ? allProducts[i].nuTelefone : '', "</td>\n        <td>").concat(allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : '', "</td>\n        <td>").concat(allProducts[i].municipio !== null ? allProducts[i].municipio : '', "</td>\n        <td>").concat(allProducts[i].noBairro !== null ? allProducts[i].noBairro : '', "</td>\n        <td>").concat(allProducts[i].noLogradouro !== null ? allProducts[i].noLogradouro : '', "</td>\n        <td>").concat(allProducts[i].complemento !== null ? allProducts[i].complemento : '', "</td>\n        <td>").concat(allProducts[i].nuCep !== null ? allProducts[i].nuCep : '', "</td>\n        ").concat(allProducts[i].atividadeRedeSociais !== null ? "<td><a href=\"".concat(allProducts[i].atividadeRedeSociais, "\">").concat(allProducts[i].atividadeRedeSociais, "</a></td>") : "<td></td>", "\n        </tr>\n      ");
+    // Форматирование номера телефона в виде (XX) XXXXX-XXXX
+    var formattedPhoneNumber = '';
+
+    if (allProducts[i].nuTelefone !== null) {
+      var phoneNumber = allProducts[i].nuTelefone.trim();
+
+      if (phoneNumber.length === 11) {
+        formattedPhoneNumber = "(".concat(phoneNumber.substring(0, 2), ") ").concat(phoneNumber.substring(2, 7), "-").concat(phoneNumber.substring(7));
+      }
+    }
+
+    html += "\n        <tr>\n        <td>".concat(allProducts[i].sguf !== null ? allProducts[i].sguf : '', "</td>\n        <td>").concat(allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '', "</td>\n        <td>").concat(allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : '', "</td>\n        <td>").concat(formattedPhoneNumber, "</td>\n        <td>").concat(allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : '', "</td>\n        <td>").concat(allProducts[i].municipio !== null ? allProducts[i].municipio : '', "</td>\n        <td>").concat(allProducts[i].noBairro !== null ? allProducts[i].noBairro : '', "</td>\n        <td>").concat(allProducts[i].noLogradouro !== null ? allProducts[i].noLogradouro : '', "</td>\n        <td>").concat(allProducts[i].complemento !== null ? allProducts[i].complemento : '', "</td>\n        <td>").concat(allProducts[i].nuCep !== null ? allProducts[i].nuCep : '', "</td>\n        ").concat(allProducts[i].atividadeRedeSociais !== null ? "<td><a href=\"".concat(allProducts[i].atividadeRedeSociais, "\">").concat(allProducts[i].atividadeRedeSociais, "</a></td>") : "<td></td>", "\n        </tr>\n      ");
   }
 
   ;
@@ -27,12 +38,14 @@ function generateContactListMarkup() {
 }
 
 document.getElementById('button1').addEventListener('click', function () {
-  return generateContactList('cadastur');
+  return generateContactList('cadasturAC');
 });
 document.getElementById('button2').addEventListener('click', function () {
-  return generateContactList('cadasturAC');
-}); // document.getElementById('button3').addEventListener('click', () => generateContactList('cadastur2'));
-// document.getElementById('button4').addEventListener('click', () => generateContactList('cadastur3'));
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Оставляем пустую функцию, так как данные будут загружаться асинхронно и обработаны в функции generateContactListMarkup()
-//   });
+  return generateContactList('cadasturAL');
+}); // document.getElementById('button3').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button4').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button5').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button6').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button7').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button8').addEventListener('click', () => generateContactList('cadasturAL'));
+// document.getElementById('button9').addEventListener('click', () => generateContactList('cadasturAL'));
