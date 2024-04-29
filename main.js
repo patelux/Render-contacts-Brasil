@@ -29,7 +29,7 @@ const allProducts = [
         "nuMunicipio": 16,
         "flPossuiVeiculo": null,
         "nuSitCadTramite": 9,
-        "atividadeRedeSociais": null
+        "atividadeRedeSociais": "andremesquiita"
     },
     {
         "id": 56622,
@@ -61,7 +61,7 @@ const allProducts = [
         "nuMunicipio": 16,
         "flPossuiVeiculo": null,
         "nuSitCadTramite": 9,
-        "atividadeRedeSociais": andremesquiita
+        "atividadeRedeSociais": null
     },
     {
         "id": 180704,
@@ -4338,7 +4338,7 @@ function generateContactListMarkup() {
         <td>${allProducts[i].nuCep !== null ? allProducts[i].nuCep : ''}</td>
         ${
             allProducts[i].atividadeRedeSociais !== null ?
-            `<td><a href="https://www.instagram.com/${allProducts[i].atividadeRedeSociais}">https://www.instagram.com/${allProducts[i].atividadeRedeSociais}</a></td>` : `<td></td>`
+            `<td><a href="https://www.instagram.com/${allProducts[i].atividadeRedeSociais}">https://www.instagram.com/${allProducts[i].atividadeRedeSoatividadeRedeSociaisciais}</a></td>` : `<td></td>`
         }
         </tr>
       `;
