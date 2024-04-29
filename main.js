@@ -4338,7 +4338,7 @@ function generateContactListMarkup() {
         <td>${allProducts[i].nuCep !== null ? allProducts[i].nuCep : ''}</td>
         ${
             allProducts[i].atividadeRedeSociais !== null ?
-            `<td><a href="https://www.instagram.com/${allProducts[i].atividadeRedeSociais}">https://www.instagram.com/${allProducts[i].atividadeRedeSociaisciais}</a></td>` : `<td></td>`
+            `<td><a href="https://www.instagram.com/${allProducts[i].atividadeRedeSociais}">https://www.instagram.com/${allProducts[i].atividadeRedeSociais}</a></td>` : `<td></td>`
         }
         </tr>
       `;
