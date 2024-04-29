@@ -29,7 +29,7 @@ const allProducts = [
         "nuMunicipio": 16,
         "flPossuiVeiculo": null,
         "nuSitCadTramite": 9,
-        "atividadeRedeSociais": "andremesquiita"
+        "atividadeRedeSociais": "https://www.instagram.com/andremesquiita"
     },
     {
         "id": 56622,
@@ -277,7 +277,7 @@ const allProducts = [
         "nuUf": 1,
         "localidadeNuUf": null,
         "localidade": "Rio Branco",
-        "noLocalidade": "Rio Branco",
+        "noLocalidade": "www.facebook.com/agenciadeviagenseturismoalicetours",
         "nuLocalidade": 16,
         "nuPessoa": 48091,
         "natJuridEspecial": false,
@@ -4339,7 +4339,7 @@ function generateContactListMarkup() {
         <td>${allProducts[i].nuCep !== null ? allProducts[i].nuCep : ''}</td>
         ${
             allProducts[i].atividadeRedeSociais !== null ?
-            `<td><a href="https://www.instagram.com/${allProducts[i].atividadeRedeSociais}">https://www.instagram.com/${allProducts[i].atividadeRedeSociais}</a></td>` : `<td></td>`
+            `<td><a href="${allProducts[i].atividadeRedeSociais}">${allProducts[i].atividadeRedeSociais}</a></td>` : `<td></td>`
         }
         </tr>
       `;

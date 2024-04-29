@@ -30,7 +30,7 @@ var allProducts = [{
   "nuMunicipio": 16,
   "flPossuiVeiculo": null,
   "nuSitCadTramite": 9,
-  "atividadeRedeSociais": "andremesquiita"
+  "atividadeRedeSociais": "https://www.instagram.com/andremesquiita"
 }, {
   "id": 56622,
   "tipoPessoa": "PJ",
@@ -270,7 +270,7 @@ var allProducts = [{
   "nuUf": 1,
   "localidadeNuUf": null,
   "localidade": "Rio Branco",
-  "noLocalidade": "Rio Branco",
+  "noLocalidade": "www.facebook.com/agenciadeviagenseturismoalicetours",
   "nuLocalidade": 16,
   "nuPessoa": 48091,
   "natJuridEspecial": false,
@@ -4192,7 +4192,7 @@ function generateContactListMarkup() {
   var html = '';
 
   for (var i = 0; i < allProducts.length; i++) {
-    html += "\n        <tr>\n        <td>".concat(allProducts[i].sguf !== null ? allProducts[i].sguf : '', "</td>\n        <td>").concat(allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '', "</td>\n        <td>").concat(allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : '', "</td>\n        <td>").concat(allProducts[i].nuTelefone !== null ? allProducts[i].nuTelefone : '', "</td>\n        <td>").concat(allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : '', "</td>\n        <td>").concat(allProducts[i].municipio !== null ? allProducts[i].municipio : '', "</td>\n        <td>").concat(allProducts[i].noBairro !== null ? allProducts[i].noBairro : '', "</td>\n        <td>").concat(allProducts[i].noLogradouro !== null ? allProducts[i].noLogradouro : '', "</td>\n        <td>").concat(allProducts[i].complemento !== null ? allProducts[i].complemento : '', "</td>\n        <td>").concat(allProducts[i].nuCep !== null ? allProducts[i].nuCep : '', "</td>\n        ").concat(allProducts[i].atividadeRedeSociais !== null ? "<td><a href=\"https://www.instagram.com/".concat(allProducts[i].atividadeRedeSociais, "\">https://www.instagram.com/").concat(allProducts[i].atividadeRedeSociais, "</a></td>") : "<td></td>", "\n        </tr>\n      ");
+    html += "\n        <tr>\n        <td>".concat(allProducts[i].sguf !== null ? allProducts[i].sguf : '', "</td>\n        <td>").concat(allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '', "</td>\n        <td>").concat(allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : '', "</td>\n        <td>").concat(allProducts[i].nuTelefone !== null ? allProducts[i].nuTelefone : '', "</td>\n        <td>").concat(allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : '', "</td>\n        <td>").concat(allProducts[i].municipio !== null ? allProducts[i].municipio : '', "</td>\n        <td>").concat(allProducts[i].noBairro !== null ? allProducts[i].noBairro : '', "</td>\n        <td>").concat(allProducts[i].noLogradouro !== null ? allProducts[i].noLogradouro : '', "</td>\n        <td>").concat(allProducts[i].complemento !== null ? allProducts[i].complemento : '', "</td>\n        <td>").concat(allProducts[i].nuCep !== null ? allProducts[i].nuCep : '', "</td>\n        ").concat(allProducts[i].atividadeRedeSociais !== null ? "<td><a href=\"".concat(allProducts[i].atividadeRedeSociais, "\">").concat(allProducts[i].atividadeRedeSociais, "</a></td>") : "<td></td>", "\n        </tr>\n      ");
   }
 
   ;
