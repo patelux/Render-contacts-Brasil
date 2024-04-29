@@ -1,10 +1,11 @@
-const allProducts = [];
+let allProducts = [];
 
-function generateContactList(){
-    fetch('cadastur.json')
+function generateContactList(namejson){
+    let name = `${namejson}.json`
+    fetch(name)
     .then(response => response.json())
     .then(data => {
-        allProducts.push(...data); // добавляем данные в массив allProducts
+        allProducts = data; // перезаписываем данные в массиве allProducts
         generateContactListMarkup(); // вызываем функцию для генерации разметки после получения данных
     })
     .catch(error => console.error('Ошибка при загрузке данных:', error));
@@ -36,8 +37,10 @@ function generateContactListMarkup() {
     document.getElementById('data-table').innerHTML = html;
 }
 
-document.addEventListener('DOMContentLoaded', generateProductList);
-
+document.getElementById('button1').addEventListener('click', () => generateContactList('cadastur'));
+document.getElementById('button2').addEventListener('click', () => generateContactList('cadasturAC'));
+// document.getElementById('button3').addEventListener('click', () => generateContactList('cadastur2'));
+// document.getElementById('button4').addEventListener('click', () => generateContactList('cadastur3'));
 // document.addEventListener('DOMContentLoaded', () => {
 //     // Оставляем пустую функцию, так как данные будут загружаться асинхронно и обработаны в функции generateContactListMarkup()
 //   });

@@ -1,20 +1,13 @@
 "use strict";
 
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
-
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
-
-function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
-
 var allProducts = [];
 
-function generateContactList() {
-  fetch('cadastur.json').then(function (response) {
+function generateContactList(namejson) {
+  var name = "".concat(namejson, ".json");
+  fetch(name).then(function (response) {
     return response.json();
   }).then(function (data) {
-    allProducts.push.apply(allProducts, _toConsumableArray(data)); // добавляем данные в массив allProducts
+    allProducts = data; // перезаписываем данные в массиве allProducts
 
     generateContactListMarkup(); // вызываем функцию для генерации разметки после получения данных
   })["catch"](function (error) {
@@ -33,6 +26,13 @@ function generateContactListMarkup() {
   document.getElementById('data-table').innerHTML = html;
 }
 
-document.addEventListener('DOMContentLoaded', generateProductList); // document.addEventListener('DOMContentLoaded', () => {
+document.getElementById('button1').addEventListener('click', function () {
+  return generateContactList('cadastur');
+});
+document.getElementById('button2').addEventListener('click', function () {
+  return generateContactList('cadasturAC');
+}); // document.getElementById('button3').addEventListener('click', () => generateContactList('cadastur2'));
+// document.getElementById('button4').addEventListener('click', () => generateContactList('cadastur3'));
+// document.addEventListener('DOMContentLoaded', () => {
 //     // Оставляем пустую функцию, так как данные будут загружаться асинхронно и обработаны в функции generateContactListMarkup()
 //   });
