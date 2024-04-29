@@ -30,7 +30,7 @@ var allProducts = [{
   "nuMunicipio": 16,
   "flPossuiVeiculo": null,
   "nuSitCadTramite": 9,
-  "atividadeRedeSociais": andremesquiita
+  "atividadeRedeSociais": "andremesquiita"
 }, {
   "id": 56622,
   "tipoPessoa": "PJ",
