@@ -21,7 +21,7 @@ const allProducts = [
         "nuUf": 1,
         "localidadeNuUf": null,
         "localidade": "Rio Branco",
-        "noLocalidade": "Rio Branco",
+        "noLocalidade": "andremesquita1997@gmail.com",
         "nuLocalidade": 16,
         "nuPessoa": 203929,
         "natJuridEspecial": false,
@@ -4331,6 +4331,7 @@ function generateContactListMarkup() {
         <td>${allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : ''}</td>
         <td>${allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : ''}</td>
         <td>${allProducts[i].nuTelefone !== null ? allProducts[i].nuTelefone : ''}</td>
+        <td>${allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : ''}</td>
         <td>${allProducts[i].municipio !== null ? allProducts[i].municipio : ''}</td>
         <td>${allProducts[i].noBairro !== null ? allProducts[i].noBairro : ''}</td>
         <td>${allProducts[i].noLogradouro !== null ? allProducts[i].noLogradouro : ''}</td>
