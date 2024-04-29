@@ -61,7 +61,7 @@ const allProducts = [
         "nuMunicipio": 16,
         "flPossuiVeiculo": null,
         "nuSitCadTramite": 9,
-        "atividadeRedeSociais": null
+        "atividadeRedeSociais": andremesquiita
     },
     {
         "id": 180704,
@@ -4337,8 +4337,8 @@ function generateContactListMarkup() {
         <td>${allProducts[i].complemento !== null ? allProducts[i].complemento : ''}</td>
         <td>${allProducts[i].nuCep !== null ? allProducts[i].nuCep : ''}</td>
         ${
-            allProducts[i].atividade !== null ?
-            `<td><a href="https://www.instagram.com/${allProducts[i].atividade}">https://www.instagram.com/${allProducts[i].atividade}</a></td>` : `<td></td>`
+            allProducts[i].atividadeRedeSociais !== null ?
+            `<td><a href="https://www.instagram.com/${allProducts[i].atividadeRedeSociais}">https://www.instagram.com/${allProducts[i].atividadeRedeSociais}</a></td>` : `<td></td>`
         }
         </tr>
       `;
