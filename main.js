@@ -28,13 +28,16 @@ function generateContactListMarkup() {
         const registroRf = allProducts[i].registroRf !== null ? allProducts[i].registroRf : '';
         const prestadorName = nomePrestador.includes('*') ? registroRf : nomePrestador;
 
+        const nomeEmail = allProducts[i].noLocalidade !== null && allProducts[i].noLocalidade.includes('@') ? allProducts[i].noLocalidade : '';
+        
+
         html += `
         <tr>
         <td>${allProducts[i].sguf !== null ? allProducts[i].sguf : ''}</td>
         <td>${prestadorName}</td>
         <td class="web_site">${allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : ''}</td>
         <td>${formattedPhoneNumber}</td>
-        <td>${allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : ''}</td>
+        <td>${nomeEmail}</td>
         <td>${allProducts[i].municipio !== null ? allProducts[i].municipio : ''}</td>
         <td>${allProducts[i].noBairro !== null ? allProducts[i].noBairro : ''}</td>
         <td>${allProducts[i].noLogradouro !== null ? allProducts[i].noLogradouro : ''}</td>
