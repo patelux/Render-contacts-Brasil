@@ -49,6 +49,7 @@ function generateContactListMarkup() {
 document.getElementById('button1').addEventListener('click', () => generateContactList('cadasturAC'));
 document.getElementById('button2').addEventListener('click', () => generateContactList('cadasturAL'));
 document.getElementById('button3').addEventListener('click', () => generateContactList('cadasturAM'));
+
 // document.getElementById('button4').addEventListener('click', () => generateContactList('cadasturAL'));
 // document.getElementById('button5').addEventListener('click', () => generateContactList('cadasturAL'));
 // document.getElementById('button6').addEventListener('click', () => generateContactList('cadasturAL'));
