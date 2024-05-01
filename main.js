@@ -24,10 +24,14 @@ function generateContactListMarkup() {
             }
         }
 
+        const nomePrestador = allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '';
+        const registroRf = allProducts[i].registroRf !== null ? allProducts[i].registroRf : '';
+        const prestadorName = nomePrestador.includes('*') ? registroRf : nomePrestador;
+
         html += `
         <tr>
         <td>${allProducts[i].sguf !== null ? allProducts[i].sguf : ''}</td>
-        <td>${allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : ''}</td>
+        <td>${prestadorName}</td>
         <td>${allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : ''}</td>
         <td>${formattedPhoneNumber}</td>
         <td>${allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : ''}</td>
