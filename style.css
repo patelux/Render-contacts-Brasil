@@ -19,3 +19,6 @@ button {
     resize: horizontal; /* Добавляет возможность изменения ширины столбца */
     overflow: hidden; /* Скрытие лишнего содержимого */
 }
+.web_site {
+    text-transform: lowercase;
+}
