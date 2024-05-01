@@ -19,6 +19,9 @@ button {
     resize: horizontal; /* Добавляет возможность изменения ширины столбца */
     overflow: hidden; /* Скрытие лишнего содержимого */
 }
+.resizable {
+    text-transform: capitalize;
+}
 .web_site {
     text-transform: lowercase;
 }
