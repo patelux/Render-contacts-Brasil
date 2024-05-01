@@ -32,7 +32,7 @@ function generateContactListMarkup() {
         <tr>
         <td>${allProducts[i].sguf !== null ? allProducts[i].sguf : ''}</td>
         <td>${prestadorName}</td>
-        <td>${allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : ''}</td>
+        <td class="web_site">${allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : ''}</td>
         <td>${formattedPhoneNumber}</td>
         <td>${allProducts[i].noLocalidade !== null ? allProducts[i].noLocalidade : ''}</td>
         <td>${allProducts[i].municipio !== null ? allProducts[i].municipio : ''}</td>
