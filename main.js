@@ -35,6 +35,7 @@ function generateContactListMarkup() {
         <tr>
         <td>${allProducts[i].atividade !== null ? allProducts[i].atividade : ''}</td>
         <td>${allProducts[i].sguf !== null ? allProducts[i].sguf : ''}</td>
+        <td>${allProducts[i].registroRf !== null ? allProducts[i].registroRf : ''}</td>
         <td>${prestadorName}</td>
         <td class="web_site">${allProducts[i].noWebSite !== null ? allProducts[i].noWebSite : ''}</td>
         <td>${formattedPhoneNumber}</td>
