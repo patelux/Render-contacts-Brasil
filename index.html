@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
     <div class="container table-wrapper">
         <button id="button1" class="btn btn-primary mt-5">Generate List of Contacts AC region</button>
         <button id="button2" class="btn btn-primary mt-5">Generate List of Contacts AL region</button>
@@ -15,6 +16,7 @@
         <table class="table table-bordered table-success table-striped" contenteditable="true">
             <thead>
                 <tr>
+                    <th class="resizable">#</th>
                     <th class="resizable">Тип</th>
                     <th class="resizable">Регион</th>
                     <th class="resizable">Торговое название</th>
@@ -33,7 +35,15 @@
             <tbody id="data-table">                
             </tbody>
         </table>
-    </div>
+    </div>        
+    </main>
+
+    <div id="top" class="to-top">
+    	<svg  class="icon-up-arrow" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M16 16.1667L9 8.07788L2 16.1667" stroke="#7b93b6c2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+			<path d="M16 8.07788L9 1L2 8.07788" stroke="#7b93b6c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    	</svg>
+   </div>
     <script src="./main.js"></script>
 </body>
 </html>

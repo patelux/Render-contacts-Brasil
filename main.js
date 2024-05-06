@@ -1,3 +1,28 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const toTopButton = document.querySelector('.to-top');
+
+    function scrollToTop(event) {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth'});
+    }
+
+    if (toTopButton) {
+        toTopButton.addEventListener('click', scrollToTop);
+    }
+
+    function toggleToTopButton() {
+        if (window.scrollY > 100) {
+            toTopButton.classList.add('active');
+        } else {
+            toTopButton.classList.remove('active');
+        }
+    }
+
+    window.addEventListener('scroll', toggleToTopButton);
+
+    toggleToTopButton();
+});
+
 let allProducts = [];
 
 function generateContactList(namejson){
@@ -11,11 +36,10 @@ function generateContactList(namejson){
     .catch(error => console.error('Ошибка при загрузке данных:', error));
 }
 
-
 function generateContactListMarkup() {
     let html = '';
     for (let i = 0; i < allProducts.length; i++) {
-        // Форматирование номера телефона в виде (XX) XXXXX-XXXX
+        let rowNumber = i + 1; // Номер строки по порядку
         let formattedPhoneNumber = '';
         if (allProducts[i].nuTelefone !== null) {
             const phoneNumber = allProducts[i].nuTelefone.trim();
@@ -28,11 +52,11 @@ function generateContactListMarkup() {
         const registroRf = allProducts[i].registroRf !== null ? allProducts[i].registroRf : '';
         const prestadorName = nomePrestador.includes('*') ? registroRf : nomePrestador;
 
-        const nomeEmail = allProducts[i].noLocalidade !== null && allProducts[i].noLocalidade.includes('@') ? allProducts[i].noLocalidade : '';
-        
+        const nomeEmail = allProducts[i].noLocalidade !== null && allProducts[i].noLocalidade.includes('@') ? allProducts[i].noLocalidade : ''; 
 
         html += `
         <tr>
+        <td>${rowNumber}</td>
         <td>${allProducts[i].atividade !== null ? allProducts[i].atividade : ''}</td>
         <td>${allProducts[i].sguf !== null ? allProducts[i].sguf : ''}</td>
         <td>${allProducts[i].registroRf !== null ? allProducts[i].registroRf : ''}</td>
@@ -54,6 +78,7 @@ function generateContactListMarkup() {
     };
     document.getElementById('data-table').innerHTML = html;
 }
+
 
 document.getElementById('button1').addEventListener('click', () => generateContactList('cadasturAC'));
 document.getElementById('button2').addEventListener('click', () => generateContactList('cadasturAL'));
