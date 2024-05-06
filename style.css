@@ -1,12 +1,21 @@
-.container.table-wrapper {
+.container {
     width: 90%;
-    overflow-x: auto; /* Добавляет горизонтальную прокрутку при необходимости */
-    max-width: 100%; /* Делает таблицу растягиваемой по ширине */
     margin: 0 auto 0 0;
 }
-button {
+.btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+.table-wrapper {
+    overflow-x: auto; /* Добавляет горизонтальную прокрутку при необходимости */
+    max-width: 100%; /* Делает таблицу растягиваемой по ширине */
 }
 .table {
     width: 100%; /* Заполняет всю доступную ширину */
