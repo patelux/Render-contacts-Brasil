@@ -78,7 +78,7 @@ document.getElementById('button3').addEventListener('click', function () {
   return generateContactList('cadasturAM');
 });
 document.getElementById('button4').addEventListener('click', function () {
-  return generateContactList('cadasturAM');
+  return generateContactList('cadasturAP');
 }); // document.getElementById('button5').addEventListener('click', () => generateContactList('cadasturAL'));
 // document.getElementById('button6').addEventListener('click', () => generateContactList('cadasturAL'));
 // document.getElementById('button7').addEventListener('click', () => generateContactList('cadasturAL'));
