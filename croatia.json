@@ -1,0 +1,945 @@
+[
+{
+    "EntityID": 1963823,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/pro-putuj-doo",
+    "POI_WebAddress": "https:\/\/www.proputuj.hr\/",
+    "POI_Address": "XIV. Podbrežje 8g",
+    "POI_Phone": "+385 1 7077 550",
+    "POI_Email": "info@proputuj.hr",
+    "Title": "PRO PUTUJ d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546287,
+            "Title": "MICE",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546287"
+        },
+        {
+            "EntityID": 1546290,
+            "Title": "Профессиональная организация конгрессов",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546290"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546283,
+            "Title": "Локальный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420388,
+            "Title": "Загреб",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1963832,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/euronautic-doo",
+    "POI_WebAddress": "https:\/\/euronautic.eu\/",
+    "POI_Address": "Obala Kralja Petra Krešimira IV 38",
+    "POI_Phone": "+385 23 385 205",
+    "POI_Email": "katarina@euronautic.hr",
+    "Title": "Euronautic d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546288,
+            "Title": "Яхтенный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546288"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422627,
+            "Title": "Биоград-на-Мору",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1963890,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/huck-finn-adventure-travel-doo",
+    "POI_WebAddress": "https:\/\/www.huckfinncroatia.com\/",
+    "POI_Address": "Ulica Janka Leskovara 14",
+    "POI_Phone": "",
+    "POI_Email": "tihana@huck-finn.hr",
+    "Title": "Huck Finn Adventure Travel d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        },
+        {
+            "EntityID": 1546288,
+            "Title": "Яхтенный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546288"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420388,
+            "Title": "Загреб",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1964256,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/finest-holidays-doo",
+    "POI_WebAddress": "https:\/\/croatiafinestholidays.com\/",
+    "POI_Address": "Lovretska 5",
+    "POI_Phone": "",
+    "POI_Email": "info@croatiafinestholidays.com",
+    "Title": "Finest Holidays d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546286,
+            "Title": "Люкс-путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546286"
+        },
+        {
+            "EntityID": 1546291,
+            "Title": "Сдача жилых помещений в аренду",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546291"
+        },
+        {
+            "EntityID": 1546289,
+            "Title": "Планирование свадьбы",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546289"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422869,
+            "Title": "Сплит ",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1964282,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/polo-line-doo",
+    "POI_WebAddress": "https:\/\/www.hiddenkrk.com\/",
+    "POI_Address": "Stjepana Radica 5",
+    "POI_Phone": "",
+    "POI_Email": "ivan@polo.hr",
+    "Title": "Polo Line d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546291,
+            "Title": "Сдача жилых помещений в аренду",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546291"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420204,
+            "Title": "Башка",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1964320,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/topena",
+    "POI_WebAddress": "https:\/\/www.topena.hr\/",
+    "POI_Address": "Poljana Natka Nodila 1",
+    "POI_Phone": "+385 23 250 838",
+    "POI_Email": "zadar@topena.hr",
+    "Title": "Topena",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546287,
+            "Title": "MICE",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546287"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546283,
+            "Title": "Локальный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420417,
+            "Title": "Задар",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1964594,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/rix-travel-jdoo",
+    "POI_WebAddress": "https:\/\/www.likarixtravel.com\/",
+    "POI_Address": "Oravac 1\/a",
+    "POI_Phone": "",
+    "POI_Email": "drazen.rastovac@europe.com",
+    "Title": "Rix travel j.d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546286,
+            "Title": "Люкс-путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546286"
+        },
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        },
+        {
+            "EntityID": 1546294,
+            "Title": "Оздоровительный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546294"
+        },
+        {
+            "EntityID": 1546291,
+            "Title": "Сдача жилых помещений в аренду",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546291"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1964605,
+            "Title": "Кореница",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1964650,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/libro-adventures-obrt-za-turizam-i-turisticka-agencija",
+    "POI_WebAddress": "https:\/\/libroadventures.com\/",
+    "POI_Address": "Rajka Stipe 22",
+    "POI_Phone": "",
+    "POI_Email": "ilija@libroadventures.com, adventure@libroadventures.com",
+    "Title": "Libro Adventures, obrt za turizam i turistička agencija",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422829,
+            "Title": "Пореч",
+            "Place": "132533"
+        }
+    ]
+},
+{
+    "EntityID": 1964651,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/green-yogi-traveler-eko-explorations-doo",
+    "POI_WebAddress": "https:\/\/www.greenyogitraveler.com\/",
+    "POI_Address": "Petrinjska 51",
+    "POI_Phone": "",
+    "POI_Email": "info@greenyogitraveler.com",
+    "Title": "Green Yogi Traveler (Eko Explorations d.o.o.)",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420388,
+            "Title": "Загреб",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1964679,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/toptours-dmc-croatia",
+    "POI_WebAddress": "https:\/\/toptours-dmc.com\/",
+    "POI_Address": "Aleja Lipa 1d",
+    "POI_Phone": "+385 1 299 4547, +385 1 298 7739",
+    "POI_Email": "info@toptours-dmc.com",
+    "Title": "Toptours DMC Croatia",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546286,
+            "Title": "Люкс-путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546286"
+        },
+        {
+            "EntityID": 1546287,
+            "Title": "MICE",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546287"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546283,
+            "Title": "Локальный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420388,
+            "Title": "Загреб",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1964707,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/go-adventure-doo",
+    "POI_WebAddress": "www.goadventure.hr",
+    "POI_Address": "Bračka street 34",
+    "POI_Phone": "",
+    "POI_Email": "ivan.eremut@goadventure.hr",
+    "Title": "Go Adventure d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546286,
+            "Title": "Люкс-путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546286"
+        },
+        {
+            "EntityID": 1546287,
+            "Title": "MICE",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546287"
+        },
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        }
+    ],
+    "POI_TA_HeadquaterType": [],
+    "POI_City": [
+        {
+            "EntityID": 1422869,
+            "Title": "Сплит ",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1965071,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/gulliver-destination-management-company-doo",
+    "POI_WebAddress": "https:\/\/www.gulliver-dmc.hr\/",
+    "POI_Address": "Obala pape Ivana Pavla II. 1",
+    "POI_Phone": "+385 20 301 500",
+    "POI_Email": "info@gulliver-dmc.hr",
+    "Title": "Gulliver Destination Management Company d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546287,
+            "Title": "MICE",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546287"
+        },
+        {
+            "EntityID": 1546288,
+            "Title": "Яхтенный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546288"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422674,
+            "Title": "Дубровник",
+            "Place": "132506"
+        }
+    ]
+},
+{
+    "EntityID": 1965494,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/luks-bike-adventure",
+    "POI_WebAddress": "www.luks-pz.net ",
+    "POI_Address": "Županijska 1 ",
+    "POI_Phone": "",
+    "POI_Email": "info@luks-pz.net ",
+    "Title": "Luks Bike Adventure ",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546293,
+            "Title": "Школьные путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546293"
+        },
+        {
+            "EntityID": 1546294,
+            "Title": "Оздоровительный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546294"
+        },
+        {
+            "EntityID": 1546291,
+            "Title": "Сдача жилых помещений в аренду",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546291"
+        },
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422831,
+            "Title": "Пожега ",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1965878,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies\/petrus-tours-doo-magnificent-croatia",
+    "POI_WebAddress": "https:\/\/magnificent-croatia.com\/",
+    "POI_Address": "Stobrečka 10 ",
+    "POI_Phone": "",
+    "POI_Email": "travel@magnificentcroatia.com",
+    "Title": "Petrus Tours d.o.o. (Magnificent Croatia) ",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546286,
+            "Title": "Люкс-путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546286"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422869,
+            "Title": "Сплит ",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1970073,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies-mare-tours",
+    "POI_WebAddress": "https:\/\/www.mare-vrbnik.com\/",
+    "POI_Address": "Pojana 4",
+    "POI_Phone": "+385 51 604 400",
+    "POI_Email": "info@mare-vrbnik.com",
+    "Title": "Mare Tours",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546288,
+            "Title": "Яхтенный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546288"
+        },
+        {
+            "EntityID": 1546291,
+            "Title": "Сдача жилых помещений в аренду",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546291"
+        },
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420386,
+            "Title": "Врбник",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1970093,
+    "Order": 0,
+    "SefUrl": "\/ru-ru\/travel-agencies-zlatna-greda-doo",
+    "POI_WebAddress": "https:\/\/zlatna-greda.org\/",
+    "POI_Address": "Opatijska 26F",
+    "POI_Phone": "+385 31 565 180",
+    "POI_Email": "info@zlatna-greda.org, dinko@zeleni-osijek.hr",
+    "Title": "Zlatna Greda d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        },
+        {
+            "EntityID": 1546293,
+            "Title": "Школьные путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546293"
+        },
+        {
+            "EntityID": 1546291,
+            "Title": "Сдача жилых помещений в аренду",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546291"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420318,
+            "Title": "Осиек",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1949202,
+    "Order": 10,
+    "SefUrl": "\/ru-ru\/travel-agencies\/silver-sail",
+    "POI_WebAddress": "https:\/\/www.silversail.hr\/en",
+    "POI_Address": "Doverska 19",
+    "POI_Phone": "",
+    "POI_Email": "info@silversail.hr",
+    "Title": "Silver SAIL",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546286,
+            "Title": "Люкс-путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546286"
+        },
+        {
+            "EntityID": 1546288,
+            "Title": "Яхтенный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546288"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422869,
+            "Title": "Сплит ",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1546307,
+    "Order": 30,
+    "SefUrl": "\/ru-ru\/travel-agencies\/3d-adventure-dmc-travel-agency",
+    "POI_WebAddress": "https:\/\/.3d-adventure.hr",
+    "POI_Address": "Ruđera Boškovića 7",
+    "POI_Phone": "++38521772778",
+    "POI_Email": "info@3d-adventure.hr",
+    "Title": "3d Adventure, Dmc Travel Agency",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422869,
+            "Title": "Сплит ",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1546308,
+    "Order": 40,
+    "SefUrl": "\/ru-ru\/travel-agencies\/a-la-carte-travel-d-o-o-turisticka-agencija",
+    "POI_WebAddress": "https:\/\/alacartetravel.hr\/ ; https:\/\/alc-travel.com\/",
+    "POI_Address": "Međimurska 19\/Iii",
+    "POI_Phone": "++38514678831",
+    "POI_Email": "sandra@alacartetravel.hr,info@alacartetravel.hr",
+    "Title": "A La Carte Travel d.o.o.. Turistička Agencija",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546286,
+            "Title": "Люкс-путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546286"
+        },
+        {
+            "EntityID": 1546287,
+            "Title": "MICE",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546287"
+        },
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546283,
+            "Title": "Локальный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1420388,
+            "Title": "Загреб",
+            "Place": ""
+        }
+    ]
+},
+{
+    "EntityID": 1546309,
+    "Order": 50,
+    "SefUrl": "\/ru-ru\/travel-agencies\/a-t-i-d-o-o",
+    "POI_WebAddress": "https:\/\/ati.hr\/",
+    "POI_Address": "Zadarska 15",
+    "POI_Phone": "++38552223400,++38552223666",
+    "POI_Email": "vesna@ati.hr,dinka@ati.hr",
+    "Title": "A.T.I. d.o.o.",
+    "ParentID": 0,
+    "Domain": "",
+    "POI_TA_TouristProduct": [
+        {
+            "EntityID": 1546284,
+            "Title": "Эно и гастротуризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546284"
+        },
+        {
+            "EntityID": 1546288,
+            "Title": "Яхтенный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546288"
+        },
+        {
+            "EntityID": 1546286,
+            "Title": "Люкс-путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546286"
+        },
+        {
+            "EntityID": 1546290,
+            "Title": "Профессиональная организация конгрессов",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546290"
+        },
+        {
+            "EntityID": 1546287,
+            "Title": "MICE",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546287"
+        },
+        {
+            "EntityID": 1546285,
+            "Title": "Культурный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546285"
+        },
+        {
+            "EntityID": 1546292,
+            "Title": "Приключенческий и активный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546292"
+        },
+        {
+            "EntityID": 1546293,
+            "Title": "Школьные путешествия",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546293"
+        },
+        {
+            "EntityID": 1546294,
+            "Title": "Оздоровительный туризм",
+            "SefUrl": "",
+            "UrlHref": "\/ru-ru\/useful-information\/travel-agencies?POI_TA_TouristProduct=1546294"
+        }
+    ],
+    "POI_TA_HeadquaterType": [
+        {
+            "EntityID": 1546282,
+            "Title": "Центральный офис"
+        }
+    ],
+    "POI_City": [
+        {
+            "EntityID": 1422840,
+            "Title": "Пула",
+            "Place": ""
+        }
+    ]
+}
+]

@@ -79,7 +79,47 @@ function generateContactListMarkup() {
     document.getElementById('data-table').innerHTML = html;
 }
 
+function generateContactListCroatia(namejson){
+    let name = `${namejson}.json`
+    fetch(name)
+    .then(response => response.json())
+    .then(data => {
+        allProducts = data; // перезаписываем данные в массиве allProducts
+        generateContactListMarkupCroatia(); // вызываем функцию для генерации разметки после получения данных
+    })
+    .catch(error => console.error('Ошибка при загрузке данных:', error));
+}
 
+function generateContactListMarkupCroatia() {
+    
+    let html = '';
+    for (let i = 0; i < allProducts.length; i++) {
+        let rowNumber = i + 1; // Номер строки по порядку
+        let phoneNumber = allProducts[i].POI_Phone;       
+        phoneNumber = phoneNumber.replace(/\++/g, '+');// Замена "++" на "+"
+        phoneNumber = phoneNumber.replace(/,/g, ', ');// Замена "," на ", "
+        html += `
+        <tr>
+        <td>${rowNumber}</td>
+        <td>Agency</td>
+        <td>Croatia</td>
+        <td></td>
+        <td>${allProducts[i].Title !== null ? allProducts[i].Title : ''}</td>
+        <td class="web_site">${allProducts[i].POI_WebAddress !== null ? allProducts[i].POI_WebAddress : ''}</td>
+        <td>${phoneNumber}</td>
+        <td>${allProducts[i].POI_Email !== null ? allProducts[i].POI_Email : ''}</td>
+        <td>${allProducts[i].POI_City.Title !== null ? allProducts[i].POI_City.Title : ''}</td>
+        <td>${allProducts[i].POI_Address !== null ? allProducts[i].POI_Address : ''}</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+      `;
+    };
+    document.getElementById('data-table').innerHTML = html;
+}
+document.getElementById('button01').addEventListener('click', () => generateContactListCroatia('croatia'));
 document.getElementById('button1').addEventListener('click', () => generateContactList('cadasturAC'));
 document.getElementById('button2').addEventListener('click', () => generateContactList('cadasturAL'));
 document.getElementById('button3').addEventListener('click', () => generateContactList('cadasturAM'));

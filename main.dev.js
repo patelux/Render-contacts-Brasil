@@ -68,6 +68,40 @@ function generateContactListMarkup() {
   document.getElementById('data-table').innerHTML = html;
 }
 
+function generateContactListCroatia(namejson) {
+  var name = "".concat(namejson, ".json");
+  fetch(name).then(function (response) {
+    return response.json();
+  }).then(function (data) {
+    allProducts = data; // перезаписываем данные в массиве allProducts
+
+    generateContactListMarkupCroatia(); // вызываем функцию для генерации разметки после получения данных
+  })["catch"](function (error) {
+    return console.error('Ошибка при загрузке данных:', error);
+  });
+}
+
+function generateContactListMarkupCroatia() {
+  var html = '';
+
+  for (var i = 0; i < allProducts.length; i++) {
+    var rowNumber = i + 1; // Номер строки по порядку
+
+    var phoneNumber = allProducts[i].POI_Phone;
+    phoneNumber = phoneNumber.replace(/\++/g, '+'); // Замена "++" на "+"
+
+    phoneNumber = phoneNumber.replace(/,/g, ', '); // Замена "," на ", "
+
+    html += "\n        <tr>\n        <td>".concat(rowNumber, "</td>\n        <td>Agency</td>\n        <td>Croatia</td>\n        <td></td>\n        <td>").concat(allProducts[i].Title !== null ? allProducts[i].Title : '', "</td>\n        <td class=\"web_site\">").concat(allProducts[i].POI_WebAddress !== null ? allProducts[i].POI_WebAddress : '', "</td>\n        <td>").concat(phoneNumber, "</td>\n        <td>").concat(allProducts[i].POI_Email !== null ? allProducts[i].POI_Email : '', "</td>\n        <td>").concat(allProducts[i].POI_City.Title !== null ? allProducts[i].POI_City.Title : '', "</td>\n        <td>").concat(allProducts[i].POI_Address !== null ? allProducts[i].POI_Address : '', "</td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        </tr>\n      ");
+  }
+
+  ;
+  document.getElementById('data-table').innerHTML = html;
+}
+
+document.getElementById('button01').addEventListener('click', function () {
+  return generateContactListCroatia('croatia');
+});
 document.getElementById('button1').addEventListener('click', function () {
   return generateContactList('cadasturAC');
 });
