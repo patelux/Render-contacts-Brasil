@@ -129,6 +129,8 @@ document.getElementById('button8').addEventListener('click', function () {
 });
 document.getElementById('button9').addEventListener('click', function () {
   return generateContactList('cadasturGO');
-}); // document.getElementById('button10').addEventListener('click', () => generateContactList('cadastur'));
-// document.getElementById('button11').addEventListener('click', () => generateContactList('cadastur'));
+});
+document.getElementById('button10').addEventListener('click', function () {
+  return generateContactList('cadasturMA');
+}); // document.getElementById('button11').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button12').addEventListener('click', () => generateContactList('cadastur'));

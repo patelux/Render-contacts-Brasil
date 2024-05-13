@@ -130,6 +130,6 @@ document.getElementById('button6').addEventListener('click', () => generateConta
 document.getElementById('button7').addEventListener('click', () => generateContactList('cadasturDF'));
 document.getElementById('button8').addEventListener('click', () => generateContactList('cadasturES'));
 document.getElementById('button9').addEventListener('click', () => generateContactList('cadasturGO'));
-// document.getElementById('button10').addEventListener('click', () => generateContactList('cadastur'));
+document.getElementById('button10').addEventListener('click', () => generateContactList('cadasturMA'));
 // document.getElementById('button11').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button12').addEventListener('click', () => generateContactList('cadastur'));
