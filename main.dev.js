@@ -53,7 +53,8 @@ function generateContactListMarkup() {
       var phoneNumber = allProducts[i].nuTelefone.trim();
 
       if (phoneNumber.length === 11) {
-        formattedPhoneNumber = "(".concat(phoneNumber.substring(0, 2), ") ").concat(phoneNumber.substring(2, 7), "-").concat(phoneNumber.substring(7));
+        // formattedPhoneNumber = `(${phoneNumber.substring(0, 2)}) ${phoneNumber.substring(2, 7)}-${phoneNumber.substring(7)}`;
+        formattedPhoneNumber = "".concat(phoneNumber.substring(0, 2)).concat(phoneNumber.substring(2, 7)).concat(phoneNumber.substring(7));
       }
     }
 
