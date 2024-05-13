@@ -123,5 +123,7 @@ document.getElementById('button6').addEventListener('click', function () {
 });
 document.getElementById('button7').addEventListener('click', function () {
   return generateContactList('cadasturDF');
-}); // document.getElementById('button8').addEventListener('click', () => generateContactList('cadasturAL'));
-// document.getElementById('button9').addEventListener('click', () => generateContactList('cadasturAL'));
+});
+document.getElementById('button8').addEventListener('click', function () {
+  return generateContactList('cadasturES');
+}); // document.getElementById('button9').addEventListener('click', () => generateContactList('cadasturAL'));

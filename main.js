@@ -128,5 +128,5 @@ document.getElementById('button4').addEventListener('click', () => generateConta
 document.getElementById('button5').addEventListener('click', () => generateContactList('cadasturBA'));
 document.getElementById('button6').addEventListener('click', () => generateContactList('cadasturCE'));
 document.getElementById('button7').addEventListener('click', () => generateContactList('cadasturDF'));
-// document.getElementById('button8').addEventListener('click', () => generateContactList('cadasturAL'));
+document.getElementById('button8').addEventListener('click', () => generateContactList('cadasturES'));
 // document.getElementById('button9').addEventListener('click', () => generateContactList('cadasturAL'));
