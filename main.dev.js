@@ -55,6 +55,8 @@ function generateContactListMarkup() {
       if (phoneNumber.length === 11) {
         // formattedPhoneNumber = `(${phoneNumber.substring(0, 2)}) ${phoneNumber.substring(2, 7)}-${phoneNumber.substring(7)}`;
         formattedPhoneNumber = "".concat(phoneNumber.substring(0, 2)).concat(phoneNumber.substring(2, 7)).concat(phoneNumber.substring(7));
+      } else if (phoneNumber !== null) {
+        formattedPhoneNumber = allProducts[i].nuTelefone;
       }
     }
 
