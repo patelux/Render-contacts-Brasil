@@ -132,5 +132,45 @@ document.getElementById('button9').addEventListener('click', function () {
 });
 document.getElementById('button10').addEventListener('click', function () {
   return generateContactList('cadasturMA');
-}); // document.getElementById('button11').addEventListener('click', () => generateContactList('cadastur'));
-// document.getElementById('button12').addEventListener('click', () => generateContactList('cadastur'));
+});
+document.getElementById('button11').addEventListener('click', function () {
+  return generateContactList('cadasturMG');
+}); // document.getElementById('button12').addEventListener('click', () => generateContactList('cadastur'));
+// async function readJsonFile(filename) {
+//     try {
+//         const response = await fetch(filename);
+//         if (!response.ok) {
+//             throw new Error('Failed to fetch file');
+//         }
+//         return await response.json();
+//     } catch (err) {
+//         console.error('Error reading JSON file:', err);
+//         return null;
+//     }
+// }
+// function checkDuplicates(jsonArray) {
+//     const idSet = new Set();
+//     const duplicates = [];
+//     jsonArray.forEach(item => {
+//         if (idSet.has(item.id)) {
+//             duplicates.push(item);
+//         } else {
+//             idSet.add(item.id);
+//         }
+//     });
+//     return duplicates;
+// }
+// const filename = 'cadasturMG.json';
+// readJsonFile(filename)
+//     .then(jsonData => {
+//         if (jsonData) {
+//             const duplicateRecords = checkDuplicates(jsonData);
+//             if (duplicateRecords.length > 0) {
+//                 console.log('Найдены повторяющиеся записи:');
+//                 console.log(duplicateRecords);
+//             } else {
+//                 console.log('Повторяющихся записей не найдено.');
+//             }
+//         }
+//     })
+//     .catch(err => console.error('Error:', err));
