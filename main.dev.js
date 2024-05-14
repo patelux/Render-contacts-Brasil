@@ -50,14 +50,7 @@ function generateContactListMarkup() {
     var formattedPhoneNumber = '';
 
     if (allProducts[i].nuTelefone !== null) {
-      var phoneNumber = allProducts[i].nuTelefone.trim();
-
-      if (phoneNumber.length === 11) {
-        // formattedPhoneNumber = `(${phoneNumber.substring(0, 2)}) ${phoneNumber.substring(2, 7)}-${phoneNumber.substring(7)}`;
-        formattedPhoneNumber = "".concat(phoneNumber.substring(0, 2)).concat(phoneNumber.substring(2, 7)).concat(phoneNumber.substring(7));
-      } else if (phoneNumber !== null) {
-        formattedPhoneNumber = allProducts[i].nuTelefone;
-      }
+      formattedPhoneNumber = allProducts[i].nuTelefone.trim();
     }
 
     var nomePrestador = allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '';

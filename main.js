@@ -42,13 +42,7 @@ function generateContactListMarkup() {
         let rowNumber = i + 1; // Номер строки по порядку
         let formattedPhoneNumber = '';
         if (allProducts[i].nuTelefone !== null) {
-            const phoneNumber = allProducts[i].nuTelefone.trim();
-            if (phoneNumber.length === 11) {
-                // formattedPhoneNumber = `(${phoneNumber.substring(0, 2)}) ${phoneNumber.substring(2, 7)}-${phoneNumber.substring(7)}`;
-                formattedPhoneNumber = `${phoneNumber.substring(0, 2)}${phoneNumber.substring(2, 7)}${phoneNumber.substring(7)}`;
-            } else (phoneNumber !== null){
-                formattedPhoneNumber = allProducts[i].nuTelefone;
-            }
+            formattedPhoneNumber = allProducts[i].nuTelefone.trim();
         }
 
         const nomePrestador = allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '';
