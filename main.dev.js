@@ -130,7 +130,18 @@ document.getElementById('button10').addEventListener('click', function () {
 });
 document.getElementById('button11').addEventListener('click', function () {
   return generateContactList('cadasturMG');
-}); // document.getElementById('button12').addEventListener('click', () => generateContactList('cadastur'));
+});
+document.getElementById('button12').addEventListener('click', function () {
+  return generateContactList('cadasturMS');
+}); // document.getElementById('button13').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button14').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button15').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button16').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button17').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button20').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button21').addEventListener('click', () => generateContactList('cadastur'));
 // async function readJsonFile(filename) {
 //     try {
 //         const response = await fetch(filename);

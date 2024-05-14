@@ -128,7 +128,16 @@ document.getElementById('button8').addEventListener('click', () => generateConta
 document.getElementById('button9').addEventListener('click', () => generateContactList('cadasturGO'));
 document.getElementById('button10').addEventListener('click', () => generateContactList('cadasturMA'));
 document.getElementById('button11').addEventListener('click', () => generateContactList('cadasturMG'));
-// document.getElementById('button12').addEventListener('click', () => generateContactList('cadastur'));
+document.getElementById('button12').addEventListener('click', () => generateContactList('cadasturMS'));
+// document.getElementById('button13').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button14').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button15').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button16').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button17').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button20').addEventListener('click', () => generateContactList('cadastur'));
+// document.getElementById('button21').addEventListener('click', () => generateContactList('cadastur'));
 
 
 
