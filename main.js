@@ -42,8 +42,15 @@ function generateContactListMarkup() {
         let rowNumber = i + 1; // Номер строки по порядку
         let formattedPhoneNumber = '';
         if (allProducts[i].nuTelefone !== null) {
-            formattedPhoneNumber = allProducts[i].nuTelefone.trim();
+            let rawNumber = allProducts[i].nuTelefone.trim();
+            if (rawNumber.length === 11) {
+                formattedPhoneNumber = `+55(${rawNumber.slice(0, 2)})${rawNumber.slice(2)}`;
+            }
         }
+        // let formattedPhoneNumber = '';
+        // if (allProducts[i].nuTelefone !== null) {
+        //     formattedPhoneNumber = allProducts[i].nuTelefone.trim();
+        // }
 
         const nomePrestador = allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '';
         const registroRf = allProducts[i].registroRf !== null ? allProducts[i].registroRf : '';
@@ -132,8 +139,10 @@ document.getElementById('button12').addEventListener('click', () => generateCont
 document.getElementById('button13').addEventListener('click', () => generateContactList('cadasturMT'));
 document.getElementById('button14').addEventListener('click', () => generateContactList('cadasturPA'));
 document.getElementById('button15').addEventListener('click', () => generateContactList('cadasturPB'));
-// document.getElementById('button16').addEventListener('click', () => generateContactList('cadastur'));
-// document.getElementById('button17').addEventListener('click', () => generateContactList('cadastur'));
+document.getElementById('button16').addEventListener('click', () => generateContactList('cadasturPE'));
+
+
+// document.getElementById('button17').addEventListener('click', () => generateContactList('bgAgents'));
 // document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button20').addEventListener('click', () => generateContactList('cadastur'));

@@ -50,8 +50,16 @@ function generateContactListMarkup() {
     var formattedPhoneNumber = '';
 
     if (allProducts[i].nuTelefone !== null) {
-      formattedPhoneNumber = allProducts[i].nuTelefone.trim();
-    }
+      var rawNumber = allProducts[i].nuTelefone.trim();
+
+      if (rawNumber.length === 11) {
+        formattedPhoneNumber = "+55(".concat(rawNumber.slice(0, 2), ")").concat(rawNumber.slice(2));
+      }
+    } // let formattedPhoneNumber = '';
+    // if (allProducts[i].nuTelefone !== null) {
+    //     formattedPhoneNumber = allProducts[i].nuTelefone.trim();
+    // }
+
 
     var nomePrestador = allProducts[i].nomePrestador !== null ? allProducts[i].nomePrestador : '';
     var registroRf = allProducts[i].registroRf !== null ? allProducts[i].registroRf : '';
@@ -142,8 +150,10 @@ document.getElementById('button14').addEventListener('click', function () {
 });
 document.getElementById('button15').addEventListener('click', function () {
   return generateContactList('cadasturPB');
-}); // document.getElementById('button16').addEventListener('click', () => generateContactList('cadastur'));
-// document.getElementById('button17').addEventListener('click', () => generateContactList('cadastur'));
+});
+document.getElementById('button16').addEventListener('click', function () {
+  return generateContactList('cadasturPE');
+}); // document.getElementById('button17').addEventListener('click', () => generateContactList('bgAgents'));
 // document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button20').addEventListener('click', () => generateContactList('cadastur'));
