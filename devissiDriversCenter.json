@@ -1,0 +1,91 @@
+[ 
+    {
+    "type": "singleEntry",
+    "ident": "divesite",
+    "data": {
+        "properties": {
+            "id": "544",
+            "name": "Gota El Dir",
+            "lat": "27.4352",
+            "lng": "33.7393",
+            "loggedDives": "453",
+            "averageRating": "4",
+            "loggedUsers": "264",
+            "averageMaxDepth": "15",
+            "averageDivetime": "50",
+            "averageVis": "20",
+            "images": {
+                "type": "mediaCollection",
+                "ident": "images",
+                "elements": [
+                    {
+                        "type": "image",
+                        "thumbnail": "https:\/\/my.divessi.com\/img_repository\/website\/8_mydiveguide\/default-dive-sites-2023\/Dive_Site_07-Mares.jpg\/small",
+                        "detail": "https:\/\/my.divessi.com\/img_repository\/website\/8_mydiveguide\/default-dive-sites-2023\/Dive_Site_07-Mares.jpg\/large",
+                        "huge": "https:\/\/my.divessi.com\/img_repository\/website\/8_mydiveguide\/default-dive-sites-2023\/Dive_Site_07-Mares.jpg\/large",
+                        "copyright": "Mares"
+                    }
+                ]
+            },
+            "dcAffiliated": "2",
+            "level": [
+                "beginner"
+            ],
+            "URL": "\/mydiveguide\/divesite\/544"
+        },
+        "text": {
+            "description1": "The closest coral reef to Elgouna, no more than 30min away. The shallow depth at the beginning makes it a great site for conducting courses and introduction dives. This site is very beautiful for the snorkeler as well. Many times you will see dolphins and eagle rays here.",
+            "description2": "Clown fish, snappers, morays, anthias fish, puffers fish, school of barracuda, parrotfish, sergeant fish. Eagle ray, dolphins."
+        },
+        "_text_META": {
+            "description1": "site_descr1_544",
+            "description2": "site_descr2_544"
+        }
+    }
+},
+    {
+        "type": "singleEntry",
+        "ident": "divesite",
+        "data": {
+            "properties": {
+                "id": "20",
+                "name": "\u00dcberlingen - Seezeichen 24",
+                "lat": "47.7705",
+                "lng": "9.1377",
+                "loggedDives": "604",
+                "averageRating": "4",
+                "loggedUsers": "290",
+                "averageMaxDepth": "24",
+                "averageDivetime": "46",
+                "averageVis": "10",
+                "images": {
+                    "type": "mediaCollection",
+                    "ident": "images",
+                    "elements": [
+                        {
+                            "type": "image",
+                            "thumbnail": "https:\/\/my.divessi.com\/img_divesite\/20\/6509b2acb2bfa_20_700816.png\/200",
+                            "detail": "https:\/\/my.divessi.com\/img_divesite\/20\/6509b2acb2bfa_20_700816.png\/800",
+                            "huge": "https:\/\/my.divessi.com\/img_divesite\/20\/6509b2acb2bfa_20_700816.png\/2000",
+                            "copyright": "Watersports24, 88085 Langenargen"
+                        }
+                    ]
+                },
+                "dcAffiliated": "5",
+                "level": [
+                    "advanced",
+                    "expert"
+                ],
+                "URL": "\/mydiveguide\/divesite\/20"
+            },
+            "text": {
+                "description1": "This is the dive site that is still known by many divers as \"Baugraf\". Since the State Garden Show 2021, there are several new entry points.",
+                "description2": "More than 30 species of fish live in Lake Constance today. These also include river fish species. The fish are distributed differently depending on the season."
+            },
+            "_text_META": {
+                "description1": "site_descr1_20",
+                "description2": "site_descr2_20"
+            }
+        }
+    }
+]

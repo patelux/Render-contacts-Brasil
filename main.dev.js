@@ -114,8 +114,7 @@ function generateContactListDivessi(namejson) {
   })["catch"](function (error) {
     return console.error('Ошибка при загрузке данных:', error);
   });
-} // 
-
+}
 
 function generateContactListMarkupDivessi() {
   var html = '';
@@ -186,8 +185,7 @@ document.getElementById('button16').addEventListener('click', function () {
 });
 document.getElementById('button02').addEventListener('click', function () {
   return generateContactListDivessi('divessi');
-}); // document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
-// document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
+}); // document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button20').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button21').addEventListener('click', () => generateContactList('cadastur'));
 // async function readJsonFile(filename) {

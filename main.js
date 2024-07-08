@@ -134,7 +134,7 @@ function generateContactListDivessi(namejson){
     })
     .catch(error => console.error('Ошибка при загрузке данных:', error));
 }
-// 
+
 function generateContactListMarkupDivessi() {
     let html = '';
     for (let i = 0; i < allProducts.length; i++) {
@@ -184,7 +184,6 @@ document.getElementById('button16').addEventListener('click', () => generateCont
 
 
 document.getElementById('button02').addEventListener('click', () => generateContactListDivessi('divessi'));
-// document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button20').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button21').addEventListener('click', () => generateContactList('cadastur'));
