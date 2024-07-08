@@ -124,11 +124,8 @@ function generateContactListMarkupDivessi() {
     var rowNumber = i + 1; // Номер строки по порядку
 
     var phoneNumber = allProducts[i].data.properties.tel;
-    phoneNumber = phoneNumber.replace(/\++/g, '+'); // Замена "++" на "+"
-
-    phoneNumber = phoneNumber.replace(/,/g, ', '); // Замена "," на ", "
-
-    console.log(allProducts[i]);
+    phoneNumber = phoneNumber.replace(/[^+\d]/g, '');
+    phoneNumber = phoneNumber.replace(/\+\+/, '+');
     html += "\n        <tr>\n        <td>".concat(rowNumber, "</td>\n        <td>").concat(allProducts[i].ident, "</td>\n        <td>").concat(allProducts[i].data.properties.country, "</td>\n        <td>").concat(allProducts[i].data.properties.city, "</td>\n        <td>").concat(allProducts[i].data.properties.name !== null ? allProducts[i].data.properties.name : '', "</td>\n        <td class=\"web_site\">").concat(allProducts[i].data.properties.web !== null ? allProducts[i].data.properties.web : '', "</td>\n        <td>").concat(phoneNumber, "</td>\n        <td>").concat(allProducts[i].data.properties.email !== null ? allProducts[i].data.properties.email : '', "</td>\n        <td>").concat(allProducts[i].data.properties.street !== null ? allProducts[i].data.properties.street : '', "</td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        </tr>\n      ");
   }
 

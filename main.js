@@ -140,9 +140,8 @@ function generateContactListMarkupDivessi() {
     for (let i = 0; i < allProducts.length; i++) {
         let rowNumber = i + 1; // Номер строки по порядку
         let phoneNumber = allProducts[i].data.properties.tel;       
-        phoneNumber = phoneNumber.replace(/\++/g, '+');// Замена "++" на "+"
-        phoneNumber = phoneNumber.replace(/,/g, ', ');// Замена "," на ", "
-        console.log(allProducts[i]);
+        phoneNumber = phoneNumber.replace(/[^+\d]/g, '');
+        phoneNumber = phoneNumber.replace(/\+\+/, '+');
         html += `
         <tr>
         <td>${rowNumber}</td>
