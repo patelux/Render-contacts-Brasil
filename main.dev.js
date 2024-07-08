@@ -103,6 +103,39 @@ function generateContactListMarkupCroatia() {
   document.getElementById('data-table').innerHTML = html;
 }
 
+function generateContactListDivessi(namejson) {
+  var name = "".concat(namejson, ".json");
+  fetch(name).then(function (response) {
+    return response.json();
+  }).then(function (data) {
+    allProducts = data; // перезаписываем данные в массиве allProducts
+
+    generateContactListMarkupDivessi(); // вызываем функцию для генерации разметки после получения данных
+  })["catch"](function (error) {
+    return console.error('Ошибка при загрузке данных:', error);
+  });
+} // 
+
+
+function generateContactListMarkupDivessi() {
+  var html = '';
+
+  for (var i = 0; i < allProducts.length; i++) {
+    var rowNumber = i + 1; // Номер строки по порядку
+
+    var phoneNumber = allProducts[i].data.properties.tel;
+    phoneNumber = phoneNumber.replace(/\++/g, '+'); // Замена "++" на "+"
+
+    phoneNumber = phoneNumber.replace(/,/g, ', '); // Замена "," на ", "
+
+    console.log(allProducts[i]);
+    html += "\n        <tr>\n        <td>".concat(rowNumber, "</td>\n        <td>").concat(allProducts[i].ident, "</td>\n        <td>").concat(allProducts[i].data.properties.country, "</td>\n        <td>").concat(allProducts[i].data.properties.city, "</td>\n        <td>").concat(allProducts[i].data.properties.name !== null ? allProducts[i].data.properties.name : '', "</td>\n        <td class=\"web_site\">").concat(allProducts[i].data.properties.web !== null ? allProducts[i].data.properties.web : '', "</td>\n        <td>").concat(phoneNumber, "</td>\n        <td>").concat(allProducts[i].data.properties.email !== null ? allProducts[i].data.properties.email : '', "</td>\n        <td>").concat(allProducts[i].data.properties.street !== null ? allProducts[i].data.properties.street : '', "</td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        </tr>\n      ");
+  }
+
+  ;
+  document.getElementById('data-table').innerHTML = html;
+}
+
 document.getElementById('button01').addEventListener('click', function () {
   return generateContactListCroatia('croatia');
 });
@@ -153,8 +186,10 @@ document.getElementById('button15').addEventListener('click', function () {
 });
 document.getElementById('button16').addEventListener('click', function () {
   return generateContactList('cadasturPE');
-}); // document.getElementById('button17').addEventListener('click', () => generateContactList('bgAgents'));
-// document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
+});
+document.getElementById('button02').addEventListener('click', function () {
+  return generateContactListDivessi('divessi');
+}); // document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button20').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button21').addEventListener('click', () => generateContactList('cadastur'));

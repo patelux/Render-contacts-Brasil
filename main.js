@@ -123,6 +123,48 @@ function generateContactListMarkupCroatia() {
     };
     document.getElementById('data-table').innerHTML = html;
 }
+
+function generateContactListDivessi(namejson){
+    let name = `${namejson}.json`
+    fetch(name)
+    .then(response => response.json())
+    .then(data => {
+        allProducts = data; // перезаписываем данные в массиве allProducts
+        generateContactListMarkupDivessi(); // вызываем функцию для генерации разметки после получения данных
+    })
+    .catch(error => console.error('Ошибка при загрузке данных:', error));
+}
+// 
+function generateContactListMarkupDivessi() {
+    let html = '';
+    for (let i = 0; i < allProducts.length; i++) {
+        let rowNumber = i + 1; // Номер строки по порядку
+        let phoneNumber = allProducts[i].data.properties.tel;       
+        phoneNumber = phoneNumber.replace(/\++/g, '+');// Замена "++" на "+"
+        phoneNumber = phoneNumber.replace(/,/g, ', ');// Замена "," на ", "
+        console.log(allProducts[i]);
+        html += `
+        <tr>
+        <td>${rowNumber}</td>
+        <td>${allProducts[i].ident}</td>
+        <td>${allProducts[i].data.properties.country}</td>
+        <td>${allProducts[i].data.properties.city}</td>
+        <td>${allProducts[i].data.properties.name !== null ? allProducts[i].data.properties.name : ''}</td>
+        <td class="web_site">${allProducts[i].data.properties.web !== null ? allProducts[i].data.properties.web : ''}</td>
+        <td>${phoneNumber}</td>
+        <td>${allProducts[i].data.properties.email !== null ? allProducts[i].data.properties.email : ''}</td>
+        <td>${allProducts[i].data.properties.street !== null ? allProducts[i].data.properties.street : ''}</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        </tr>
+      `;
+    };
+    document.getElementById('data-table').innerHTML = html;
+}
+
 document.getElementById('button01').addEventListener('click', () => generateContactListCroatia('croatia'));
 document.getElementById('button1').addEventListener('click', () => generateContactList('cadasturAC'));
 document.getElementById('button2').addEventListener('click', () => generateContactList('cadasturAL'));
@@ -142,7 +184,7 @@ document.getElementById('button15').addEventListener('click', () => generateCont
 document.getElementById('button16').addEventListener('click', () => generateContactList('cadasturPE'));
 
 
-// document.getElementById('button17').addEventListener('click', () => generateContactList('bgAgents'));
+document.getElementById('button02').addEventListener('click', () => generateContactListDivessi('divessi'));
 // document.getElementById('button18').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button19').addEventListener('click', () => generateContactList('cadastur'));
 // document.getElementById('button20').addEventListener('click', () => generateContactList('cadastur'));
